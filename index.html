@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="header">
         <h1>Quiz Game</h1>
         <span></span>
     </div>
-<section id="game">
-    <section id="startPage">
-        <h1>Quiz Game</h1>
-        <button>Start Quiz</button>
+    <section id="game">
+
+        <section id="startPage">
+            <h1>Quiz Game</h1>
+            <button>Start Quiz</button>
+        </section>
+
+        <section id="mainPage">
+            <h2></h2>
+            <span id="question-text"></span>
+            <div class="answer-options"></div>
+            <button id='hint'>
+                <img src='games-hint-icon-1702x2048-6izvcc1v.png' />
+            </button>
+        </section>
+        
+        <section id="endPage">
+        </section>
+
     </section>
-    <section id="mainPage">
-        <h2></h2>
-        <span id="question-text"></span>
-        <div class="answer-options"></div>
-        <button id='hint' >
-            <img src='games-hint-icon-1702x2048-6izvcc1v.png' />
-        </button>
-    </section>
-    <section id="endPage">
-    </section>
-   
-</section>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
